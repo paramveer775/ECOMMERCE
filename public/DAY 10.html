@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title> DAY 10 </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title> index2 </title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+            rel="stylesheet">
+
+
+
+        <!--  -------------------------------------------------------  -->
+
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css/bootstrap.css">
+
+       
+    </head>
+
+
+
+
+
+    <body class="bg-slate-400">
+     
+        
+        <header>
+            <div class="text-lg md:text-xl lg:text-2xl ">
+                <!---------------------------------------------     -->
+                <div class="bg-black p-4">
+                  <nav class="flex items-center justify-between">
+                      <div class="ml-32">
+                          <img src="https://thumbs.dreamstime.com/b/apple-logo-19106337.jpg" alt="" class="w-15 h-12 rounded-full mx-1" />
+                      </div>
+                      <ul class="flex space-x-6">
+                          <li><a href="DAY 10.html" class="text-white hover:underline p-4 text-2xl">Home</a></li>
+                          <li><a href="DAY 10.html" class="text-white hover:underline p-4 text-2xl">About</a></li>
+                          <li><a href="DAY 10.html" class="text-white hover:underline p-4 text-2xl">Services</a></li>
+                          <li><a href="DAY 10.html" class="text-white hover:underline p-4 text-2xl">Products</a></li>
+                          <li><a href="DAY 10.html" class="text-white hover:underline p-4 text-2xl">Cart</a></li>
+                      </ul>
+                      <form class="flex items-center space-x-2">
+                          <input class="bg-gray-800 text-white border border-gray-700 rounded px-2 py-1 focus:outline-none" type="text" placeholder="Search" id="find" aria-label="Search">
+                          <button class="bg-white hover:bg-blue-800 text-black font-bold py-1 px-2 rounded-s-lg rounded-e-lg" type="button" onclick="search()">Search</button>
+                      </form>
+                  </nav>
+              </div>
+            
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------     -->
+            <div class="p-0 sm:p-11 block md:hidden rounded-s-lg"> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light d-inline-flex p-2 hidden md:block rounded-s-lg">
+               
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                
+
+
+                  <div class="container mx-auto px-4 md:px-8 mt-8">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" id="find" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 text-white" type="button" onclick="search()">Search</button>
+                    </form>
+                </div>
+
+
+                </div>
+            
+              </nav>
+
+              
+
+            </div>
+<!-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------          -->
+
+
+            <div class="grid grid-cols-1  md:grid-cols-2  items-center justify-center ">
+
+                <div class="p-18 sm:p-11 hidden md:block  m-3">
+                    <p>
+                        <!--<h1><b>IPHONE 12</b></h1>-->
+                        <span class="inline-flex items-baseline ">
+                          <img src="logo2.jpg" alt="" class="self-center w-15 h-12 rounded-full mx-1" />
+                       <!-- <span>Kramer</span>  -->
+                       <h1><b>IPHONE 14 PRO</b></h1>  
+                        </span>
+                       <br><span class="text-4xl">The iPhone is a smartphone made </span><br> By 
+                        Apple that combines a computer. </p>
+
+                </div>
+
+
+          <!--      <video class="p-1 rounded-s-xl rounded-e-xl" controls autoplay muted>
+                  <source src="video2.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+-->
+                
+              
+                <div id="carouselExampleIndicators" class=" carousel slide p-2  md:w-50 md:h-50 lg:w-100 lg:h-100 rounded-e-3xl rounded-s-3xl" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 rounded-s-xl rounded-e-xl" src="image5.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="image4.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="image6.webp" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>    
+                
+
+             <!--   VISIBLE ONLY ON SMALL SCREEN   -->
+                <div class="p-10 sm:p-11 block md:hidden">
+                    <p>
+                        <br>IPHONE 12<br>
+                        <span class="inline-flex items-baseline ">
+                          <img src="laptop.jpg" alt="" class="self-center w-8 h-8 rounded-full mx-1" />
+                          <span>Kramer</span>
+                        </span>
+                        The iPhone is a smartphone made <br> by 
+                        Apple that combines a computer. </p>
+
+                </div>
+
+              </div>
+            </div>
+
+    </header >
+ <!-----------------------------------------------------------  CARD SECTION    -------------------------------------------------------------------------------->
+ 
+
+
+
+
+
+
+
+ <!---------------------------------------------------------------------------------------------------------------------------------->
+    <!--  <div id="odin">
+        <div class="container mx-auto px-4 md:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 rounded-e-lg">
+-->
+<div class="bg-black p-2 text-white md:w-full lg:w-full xl:w-full  rounded-s-lg rounded-e-lg relative thor">
+    <img src="image4.jpg" alt="Your Image" class="w-full h-48 md:h-64 lg:h-96 xl:h-64 rounded-e-3xl rounded-s-3xl object-cover" />
+    <div class="relative z-10 ">
+       <h1 class="text-2xl font-bold text-center">ONE OF TH EBEST OFFERS ON THE INTERNET</h1>
+       <p class="mt-2 text-center">YOU CAN BUY ANYTHING ANY TIME </p>
+    </div>
+  </div>
+
+    
+
+<div id="odin" class="grid lg:grid-cols-4 md:grid-cols-3  gap-4 m-2 bg-black p-4 rounded-s-lg rounded-e-lg">
+    
+   
+             
+            
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 thor">
+    
+   
+    </div>
+
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 thor">
+   
+</div>
+
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 thor">
+    
+</div>
+
+
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 thor">
+   
+</div>
+
+
+
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 thor">
+
+</div>
+
+
+
+
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 thor">
+
+</div>
+
+
+
+
+
+<div class="max-w-sm  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 thor">
+
+
+
+</div>
+
+<div class="max-w-sm flex  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 thor">
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--</div>
+</div>-->
+<footer class="  bg-zinc-950 p-5 m-1 rounded-s-lg rounded-e-lg">
+    <div class="container ">
+      
+        
+          <p class="text-center text-slate-200">Copyright © 2036 <a href="#">APPLE</a> Company. All rights reserved. 
+          
+          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TDC</a></p>
+        </div>
+      
+    </div>
+    
+  </footer>
+
+  
+
+
+
+  <script type="text/JavaScript">
+    // JavaScript to toggle the mobile menu
+    function search() {
+        let filter = document.getElementById('find').value.toUpperCase();
+        let items = document.querySelectorAll('.thor');
+
+        for (let i = 0; i < items.length; i++) {
+            let h1 = items[i].querySelector('h1');
+            let value = h1.innerText || h1.textContent;
+
+            if (value.toUpperCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+
+
+
+
+
+    
+  const products = [
+  { name: 'Product A',
+   price: 14.99,
+   image: './image5.jpg' 
+  },
+   { name: 'Product B', price: 15.99, image: './image4.jpg' },
+  { name: 'Product C', price: 13.99,  image: './image5.jpg'},
+  { name: 'Product D', price: 14.99,  image: './image4.jpg' },
+  { name: 'Product AA', price: 15.99,  image: './image5.jpg' },
+  { name: 'Product BB', price: 12.99,  image: './image4.jpg' },
+  { name: 'Product CC', price: 14.99,  image: './image5.jpg' },
+  { name: 'Product DD', price: 13.99,  image: './image4.jpg' },
+  { name: 'Product EE', price: 13.99,  image: './image5.jpg' },
+  ];
+
+ const parentDiv = document.getElementById('odin');
+ const childDivs = parentDiv.getElementsByClassName('thor');
+
+
+ function displayProductDetails(product, productContainer) {
+   const productElement = document.createElement('div');
+   productElement.innerHTML = `
+   <img class="rounded-t-lg rounded-b-lg rounded-t-lg"  src= ${product.image} />
+   <div class="flex p-2 justify-center items-center"><p class=" font-normal flex text-gray-700 dark:text-black-400 "> </p>
+   <h1 class="font-bold ml-1"><span class="text-black-500 text-3xl">${product.name}</span></h1>
+   </div>
+     <p class="flex justify-center items-center"> <span class="text-red-500"> New Price </span>  : <del> $20</del>  - <b><span class="text-green-500">${product.price.toFixed(2)}</span><b></p>
+      <div class="flex justify-center">
+  <a href="#" class="m-8 inline-flex items-center px-3 py-2 justify-center text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+    More Details
+    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+    </svg>
+  </a>
+</div>
+
+     
+     <hr>
+    `;
+   
+   productContainer.appendChild(productElement);
+ }
+
+
+ for (let i = 0; i <childDivs.length; i++) {
+  const currentDiv = childDivs[i];
+  const currentProduct = products[i];
+  displayProductDetails(currentProduct, currentDiv);
+ }
+   
+</script>
+
+    </body>
+</html>
